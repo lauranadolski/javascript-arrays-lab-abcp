@@ -22,7 +22,8 @@ function destructivelyRemoveLastKitten(){
 
 //removes the First kitten from the kittens array
 function destructivelyRemoveFirstKitten(){
-  
+  kittens.shift();
+  return kittens;
 }
 
 //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
