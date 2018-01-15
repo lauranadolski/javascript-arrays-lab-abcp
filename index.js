@@ -7,4 +7,7 @@ function destructivelyAppendKitten(name){
   
 }
 
-//
+//prepends a kitten to the beginning of the kittens array
+function destructivelyPrependKitten(name){
+  
+}
